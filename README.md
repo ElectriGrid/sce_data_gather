@@ -4,7 +4,7 @@ This repository contains the methods that our team implemented to compile Integr
 
 ## About
 
-Upon initial exploration, our team downloaded ICA data from SCE off of their [public ArcGis Hub](https://drpep-sce2.opendata.arcgis.com/maps/23f48820904b46c38f0d4f2d75c69d23/about), specifically the `ICA - Circuit Segments` layer within the ICA Layer. After further investigation, the downloaded data seemed to be missing ~100k entries when comparing what was displayed on the online interactive portal. To gather the full data, we built a Python script to query the `ICA - Circuit Segments` layer in the ICA_Layer FeatureServer.
+Upon initial exploration, our team downloaded ICA data from SCE off of their [public ArcGis Hub](https://drpep-sce2.opendata.arcgis.com/maps/23f48820904b46c38f0d4f2d75c69d23/about), specifically the `ICA - Circuit Segments` layer within the ICA Layer. After further investigation, the downloaded data seemed to be missing ~100k entries when comparing what was displayed on the online interactive portal. To gather the full data, we built a Python script to query the `ICA - Circuit Segments` layer in the ArcGIS FeatureServer.
 
 
 ## Contents
